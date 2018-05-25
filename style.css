@@ -1,0 +1,157 @@
+
+html{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height:100%;
+  margin: 0;
+  padding: 0;
+  background:#eeeeee;
+}
+
+@keyframes slide-in-left {
+  from {margin-right: 50%;}
+  to {margin-right: 0%;}
+}
+
+@keyframes slide-in-right {
+  from {margin-left: 50%;}
+  to {margin-left: 0%;}
+}
+
+@keyframes text-bloat-up {
+  from {font-size: 50%;}
+  to {font-size: 150%;}
+}
+
+@keyframes img-bloat-up {
+  from {width: 0; height: 0;}
+  to {width: 100px; height: 100px;}
+}
+
+@keyframes img-click {
+  0% {width: 100px; height: 100px;}
+  50% {width: 90px; height: 90px;}
+  100% {width: 100px; height: 100px;}
+}
+
+.startseite-inhalt
+{
+  font-size: 500%;
+  width: 50%;
+  height: border-box;
+  border-collapse: separate;
+  text-align: center;
+  margin: auto;
+  min-width: 100%;
+  max-width: 100%;
+
+}
+
+.cursor{
+  animation-name: img-click;
+  animation-duration: 800ms;
+  animation-delay: 2s;
+  animation-iteration-count: 2;
+}
+
+.title{
+  word-break: normal;
+  text-align: center;
+  font-size: 150%;
+  animation-name: text-bloat-up;
+  animation-duration: 2s;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: slateblue;
+  text-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+.info {
+  display: inline-block;
+  width: 50%;
+  font-size: 30%;
+}
+
+.button-container{
+  justify-content:center;
+  align-items:center;
+}
+
+.button-container.left{
+  animation-name: slide-in-left;
+  animation-duration: 5s;
+}
+
+.button-container.right{
+  animation-name: slide-in-right;
+  animation-duration: 5s;
+}
+
+.button{
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0,0,0,.15);
+  color: #eeeeee;
+  border: 2px;
+  border-radius: 15px 50px 30px;
+  background: mediumslateblue;
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.button:active{
+  background: darkslateblue;
+}
+
+/*Spielfeldreihe*/
+.row {
+  text-align: center;
+}
+.row div {
+  display: inline-block; /*Kaestchen in selber Hoehe*/
+  vertical-align: middle;
+}
+
+.kaestchen {
+  margin: auto;
+  width: 10vh;
+  height: 10vh;
+  border: solid;
+  border-color: black;
+  border-width: 1vh;
+  text-align: center;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.kaestchen.aufgabe
+{
+  margin-bottom: 20%;
+  border-radius: 15px 50px 30px;
+  border-color: slateblue;
+}
+
+.return-button
+{
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0,0,0,.15);
+  color: white;
+  border: 2px;
+  border-radius: 15px 50px 30px;
+  background: mediumslateblue;
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.joker-button
+{
+  float: right;
+}
+
+
+
