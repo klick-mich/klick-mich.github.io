@@ -3729,7 +3729,7 @@ this.cD()
 this.br(0)}}}],["","",,Y,{"^":"",be:{"^":"a;a,b",
 i:function(a){return this.b}},eA:{"^":"a;a,b,c,d",
 cL:function(a){var z,y,x,w,v,u
-z="http://localhost:21715/level/"
+z="https://raw.githubusercontent.com/klick-mich/klick-mich.github.io/master/level/"
 z=J.ab(z,a)
 try{w=new XMLHttpRequest()
 C.t.dl(w,"GET",z,!1)
