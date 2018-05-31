@@ -47,7 +47,6 @@ html{
   margin: auto;
   min-width: 100%;
   max-width: 100%;
-
 }
 
 .cursor{
@@ -103,6 +102,14 @@ html{
   padding-right: 10%;
 }
 
+.backgroundImage{
+  position: absolute;
+  z-index: 1;
+}
+
+.foregroundImage{
+}
+
 .button:active{
   background: darkslateblue;
 }
@@ -117,6 +124,7 @@ html{
 }
 
 .kaestchen {
+  position: relative;
   margin: auto;
   width: 10vh;
   height: 10vh;
