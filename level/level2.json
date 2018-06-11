@@ -1,6 +1,6 @@
 {
-  "Schwierigkeitsgrad": "Mittel",
-  "Suchzeit": 10000,
+  "Schwierigkeitsgrad": "Schwer",
+  "Suchzeit": 500,
   "Aufdeckzeit": 2,
   "MaxFehler": 3
 }

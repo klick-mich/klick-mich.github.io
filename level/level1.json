@@ -1,7 +1,7 @@
 {
-  "Schwierigkeitsgrad": "Einfach",
-  "Suchzeit": 20000,
+  "Schwierigkeitsgrad": "Leicht",
+  "Suchzeit": 1000,
   "Aufdeckzeit": 3,
-  "MaxFehler": 2
+  "MaxFehler": 3
 }
 

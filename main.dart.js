@@ -4269,9 +4269,9 @@ return P.ag($async$al,y)},
 cn:function(){var z=P.hu(Date.now())
 this.a=z
 this.go=26
-this.id=2
+this.id=4
 this.x=new Array(26)
-this.b=new Array(2)
+this.b=new Array(4)
 this.c=[]
 this.d=[]
 this.e=[]
@@ -4414,8 +4414,7 @@ y.textContent="Es gibt 9 Felder. Es erscheinen 9 zufaellige Symbole. Das gesucht
 z=z.createElement("button")
 this.d=z
 z.classList.add("return-button")
-this.d.textContent="Zur\xfcck"
-this.c.classList.add("anleitung")},
+this.d.textContent="Zur\xfcck"},
 l:{
 dU:function(){var z=new A.dT(null,null,null,null)
 z.a=!1
