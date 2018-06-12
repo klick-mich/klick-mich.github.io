@@ -44,7 +44,7 @@ html{
 
 .startseite-inhalt
 {
-  font-size: 500%;
+  font-size: 1em;
   width: 50%;
   height: border-box;
   border-collapse: separate;
@@ -64,7 +64,7 @@ html{
 .title{
   word-break: normal;
   text-align: center;
-  font-size: 150%;
+  font-size: 1.2em;
   animation-name: text-bloat-up;
   animation-duration: 2s;
   margin-bottom: 10px;
@@ -76,7 +76,7 @@ html{
 .info {
   display: inline-block;
   width: 50%;
-  font-size: 30%;
+  font-size: 1em;
 }
 
 .button-container{
