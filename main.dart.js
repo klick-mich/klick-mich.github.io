@@ -3833,7 +3833,7 @@ return P.Y(v.M(b,c),$async$aj)
 case 5:if(w.f!==!0)if(w.r!==!0){w.b.toString
 u=!v.dJ(b,c)}else u=!1
 else u=!1
-if(u)if(J.P(w.e,0)){window.alert("Leider nicht geschafft")
+if(u)if(J.P(w.e,1)){window.alert("Leider nicht geschafft")
 u=w.a.c.y.style
 u.visibility="visible"
 w.b.toString
@@ -4233,9 +4233,9 @@ return P.ax($async$ai,y)},
 ck:function(){var z=P.hs(Date.now())
 this.a=z
 this.fx=26
-this.fy=4
+this.fy=9
 this.f=new Array(26)
-this.b=new Array(4)
+this.b=new Array(9)
 this.c=[]
 this.cT()
 this.cS()
