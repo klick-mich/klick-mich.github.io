@@ -1,13 +1,9 @@
 
 html{
   display: flex;
-  flex-flow: row nowrap;
   justify-content: center;
-  align-content: center;
   align-items: center;
   height:100%;
-  margin: 0;
-  padding: 0;
   background:#eeeeee;
 }
 
@@ -44,33 +40,18 @@ html{
 
 .startseite-inhalt
 {
-  font-size: 1em;
-  width: 50%;
-  height: border-box;
-  border-collapse: separate;
   text-align: center;
-  margin: auto;
-  min-width: 100%;
-  max-width: 100%;
 }
 
 .cursor{
   animation-name: img-click;
   animation-duration: 800ms;
-  animation-delay: 2s;
   animation-iteration-count: 2;
 }
 
-.title{
-  word-break: normal;
-  text-align: center;
-  font-size: 1.2em;
-  animation-name: text-bloat-up;
-  animation-duration: 2s;
-  margin-bottom: 10px;
-  font-weight: bold;
+.title
+{
   color: slateblue;
-  text-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
 
 .info {
@@ -79,32 +60,14 @@ html{
   font-size: 1em;
 }
 
-.button-container{
-  justify-content:center;
-  align-items:center;
-}
-
-.button-container.left{
-  animation-name: slide-in-left;
-  animation-duration: 5s;
-}
-
-.button-container.right{
-  animation-name: slide-in-right;
-  animation-duration: 5s;
-}
-
 .button{
-  text-align: center;
   font-weight: bold;
-  text-shadow: 0 1px 2px rgba(0,0,0,.15);
   color: #eeeeee;
-  border: 2px;
-  border-radius: 15px 50px 30px;
   background: mediumslateblue;
-  padding: 5%;
+  padding: 7%;
   padding-left: 10%;
   padding-right: 10%;
+  margin-top: 12%;
 }
 
 .button:active{
@@ -122,13 +85,12 @@ html{
 
 .kaestchen {
   margin: auto;
-  width: 10vh;
-  height: 10vh;
+  width: 13vh;
+  height: 12.5vh;
   border: solid;
   border-color: black;
-  border-width: 1vh;
+  border-width: 0.3vh;
   text-align: center;
-  vertical-align: middle;
   object-fit: cover;
 
 }
@@ -142,21 +104,19 @@ html{
 
 .return-button
 {
-  text-align: center;
   font-weight: bold;
-  text-shadow: 0 1px 2px rgba(0,0,0,.15);
   color: white;
-  border: 2px;
-  border-radius: 15px 50px 30px;
   background: mediumslateblue;
-  padding: 5%;
+  padding: 4%;
   padding-left: 10%;
   padding-right: 10%;
+  margin-top: 12%;
 }
 
 .joker-button
 {
   float: right;
+  margin-top: 10%;
 }
 
 
