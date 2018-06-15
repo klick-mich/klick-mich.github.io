@@ -3974,8 +3974,8 @@ if(y>=v.length)return H.a(v,y)
 v[y]=u
 this.c.push(y)}},
 cV:function(){var z,y,x,w,v
-this.ch=W.b1(70,"img/cover.png",70)
-for(z=this.fx,y="img/icon1.png",x=0;x<z;++x){w=W.b1(70,y,70)
+this.ch=W.b1(100,"img/cover.png",100)
+for(z=this.fx,y="img/icon1.png",x=0;x<z;++x){w=W.b1(100,y,100)
 w.classList.add("backgroundImage")
 v=this.f
 if(x>=v.length)return H.a(v,x)
@@ -3989,11 +3989,11 @@ if(typeof y!=="number")return H.o(y)
 x=this.a
 z=z>=y?x.V(z)+1:x.V(y)+1
 this.db=z
-if(z<6){y=this.cx
+if(z<8){y=this.cx
 if(typeof y!=="number")return y.c3()
-y=y>=6&&this.fx>=6}else y=!1
-if(y){this.db=6
-z=6}y=this.fx
+y=y>=8&&this.fx>=8}else y=!1
+if(y){this.db=8
+z=8}y=this.fx
 if(z>y){z=this.a.V(y)+1
 this.db=z}x=new Array(z)
 this.x=x
@@ -4203,10 +4203,10 @@ z=1
 break}p[b]=p[b]!==!0||!1
 p=J.R(s)
 o=(p&&C.c).L(p,"transform")
-p.setProperty(o,"perspective(600px) rotateY(90deg)","")
+p.setProperty(o,"rotateY(90deg)","")
 p=J.R(s)
 o=(p&&C.c).L(p,"transition")
-p.setProperty(o,"transform 700ms","")
+p.setProperty(o,"transform 500ms linear","")
 p=s
 o=[W.jy]
 p=new W.bd(p,W.du().$1(p),!1,o)
@@ -4223,10 +4223,10 @@ return P.O(t.aj(r,a,b),$async$N)
 case 9:q=d
 n=J.R(q)
 m=(n&&C.c).L(n,"transform")
-n.setProperty(m,"perspective(600px) rotateY(0deg)","")
+n.setProperty(m,"rotateY(0deg)","")
 n=J.R(q)
 m=(n&&C.c).L(n,"transition")
-n.setProperty(m,"transform 700ms","")
+n.setProperty(m,"transform 500ms linear","")
 n=q
 o=new W.bd(n,W.du().$1(n),!1,o)
 z=10
@@ -4585,7 +4585,7 @@ z="expando$key$"+z}return new P.ej(null,z)},"cR","$get$cR",function(){return H.U
 toString:function(){return"$receiver$"}}))},"cS","$get$cS",function(){return H.U(H.bb({$method$:null,
 toString:function(){return"$receiver$"}}))},"cT","$get$cT",function(){return H.U(H.bb(null))},"cU","$get$cU",function(){return H.U(function(){var $argumentsExpr$='$arguments$'
 try{null.$method$($argumentsExpr$)}catch(z){return z.message}}())},"cY","$get$cY",function(){return H.U(H.bb(void 0))},"cZ","$get$cZ",function(){return H.U(function(){var $argumentsExpr$='$arguments$'
-try{(void 0).$method$($argumentsExpr$)}catch(z){return z.message}}())},"cW","$get$cW",function(){return H.U(H.cX(null))},"cV","$get$cV",function(){return H.U(function(){try{null.$method$}catch(z){return z.message}}())},"d0","$get$d0",function(){return H.U(H.cX(void 0))},"d_","$get$d_",function(){return H.U(function(){try{(void 0).$method$}catch(z){return z.message}}())},"bQ","$get$bQ",function(){return P.fI()},"at","$get$at",function(){return P.h1(null,P.b6)},"aD","$get$aD",function(){return[]},"cg","$get$cg",function(){return{}},"cf","$get$cf",function(){return P.fg("^\\S+$",!0,!1)},"bF","$get$bF",function(){return new Z.f9()},"N","$get$N",function(){var z=new D.fk(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,26,9,0)
+try{(void 0).$method$($argumentsExpr$)}catch(z){return z.message}}())},"cW","$get$cW",function(){return H.U(H.cX(null))},"cV","$get$cV",function(){return H.U(function(){try{null.$method$}catch(z){return z.message}}())},"d0","$get$d0",function(){return H.U(H.cX(void 0))},"d_","$get$d_",function(){return H.U(function(){try{(void 0).$method$}catch(z){return z.message}}())},"bQ","$get$bQ",function(){return P.fI()},"at","$get$at",function(){return P.h1(null,P.b6)},"aD","$get$aD",function(){return[]},"cg","$get$cg",function(){return{}},"cf","$get$cf",function(){return P.fg("^\\S+$",!0,!1)},"bF","$get$bF",function(){return new Z.f9()},"N","$get$N",function(){var z=new D.fk(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,30,9,0)
 z.cm()
 return z}])
 I=I.$finishIsolateConstructor(I)

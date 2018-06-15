@@ -85,16 +85,23 @@ html{
 
 .kaestchen {
   margin: auto;
-  width: 13vh;
+  /* width: 13vh;
   height: 12.5vh;
   border: solid;
   border-color: black;
-  border-width: 0.3vh;
+  border-width: 0.3vh; */
   text-align: center;
   object-fit: cover;
 
 }
 
+img.backgroundImage {
+  border-radius: 40px;
+  /* border: 3px; */
+  /* border-style: solid; */
+  box-shadow: 11px 8px 20px 0px #0000005c;
+  margin: 5px;
+}
 .kaestchen.aufgabe
 {
   margin-bottom: 20%;
