@@ -1,130 +1,170 @@
-
-html{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height:100%;
-  background:#eeeeee;
+body {
+    font-size:0.8em;
+    font-family: Arial, sans-serif;
+    vertical-align:top;
+    padding:1em;
+    max-width:80%;
+    margin:auto;
+    text-align: center;
+    background: #eeeeee;
+}
+h1 {
+    font-size: 3.0em;
+    margin: auto;
+    color: mediumslateblue;
+}
+.startseiteInhalt {
+    margin: auto;
+    text-align: center;
+    margin-top: 30%;
 }
 
-@keyframes slide-in-left {
-  from {margin-right: 50%;}
-  to {margin-right: 0%;}
+.anleitung{
+
 }
 
-@keyframes slide-in-right {
-  from {margin-left: 50%;}
-  to {margin-left: 0%;}
+button {
+    color: #eeeeee;
+    background: mediumslateblue;
+    font-size: 1.5em;
+    width: 7em;
+    height: 50px;
 }
 
-@keyframes text-bloat-up {
-  from {font-size: 50%;}
-  to {font-size: 150%;}
-}
-
-@keyframes btn-bloat-up {
-  from {width: 0; height: 0;}
-  to {width: 100%; height: 100%;}
-}
-
-@keyframes img-bloat-up {
-  from {width: 0; height: 0;}
-  to {width: 100px; height: 100px;}
-}
-
-@keyframes img-click {
-  0% {width: 100px; height: 100px;}
-  50% {width: 90px; height: 90px;}
-  100% {width: 100px; height: 100px;}
-}
-
-.startseite-inhalt
-{
-  text-align: center;
+.buttonContainer {
+    margin-bottom: 2em;
 }
 
 .cursor{
-  animation-name: img-click;
-  animation-duration: 800ms;
-  animation-iteration-count: 2;
+    margin: 2em;
+    animation-name: img-click;
+    animation-duration: 800ms;
+    animation-iteration-count: 2;
+
+}
+@keyframes img-click {
+    0% {width: 100px; height: 100px;}
+    50% {width: 90px; height: 90px;}
+    100% {width: 100px; height: 100px;}
 }
 
-.title
-{
-  color: slateblue;
-}
-
-.info {
-  display: inline-block;
-  width: 50%;
-  font-size: 1em;
-}
-
-.button{
-  font-weight: bold;
-  color: #eeeeee;
-  background: mediumslateblue;
-  padding: 7%;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-top: 12%;
-}
-
-.button:active{
-  background: darkslateblue;
-}
-
-/*Spielfeldreihe*/
-.row {
-  text-align: center;
-}
-.row div {
-  display: inline-block; /*Kaestchen in selber Hoehe*/
-  vertical-align: middle;
-}
-
-.kaestchen {
-  margin: auto;
-  /* width: 13vh;
-  height: 12.5vh;
-  border: solid;
-  border-color: black;
-  border-width: 0.3vh; */
-  text-align: center;
-  object-fit: cover;
+spielfeld{
 
 }
 
 img.backgroundImage {
-  border-radius: 40px;
-  /* border: 3px; */
-  /* border-style: solid; */
-  box-shadow: 11px 8px 20px 0px #0000005c;
-  margin: 5px;
-}
-.kaestchen.aufgabe
-{
-  margin-bottom: 20%;
-  border-radius: 15px 50px 30px;
-  border-color: slateblue;
+    border-radius: 20px;
+    /* border: 3px; */
+    /* border-style: solid; */
+    box-shadow: 12px 15px 20px 0px #0000005c;
+    margin: 5px;
 }
 
-.return-button
-{
-  font-weight: bold;
-  color: white;
-  background: mediumslateblue;
-  padding: 4%;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-top: 12%;
+.info {
+    display: inline-block;
+    font-size: 1em;
+    margin: 13px;
+}
+
+.row {
+    text-align: center;
+}
+.row div {
+    display: inline-block; /*Kaestchen in selber Hoehe*/
+    vertical-align: middle;
 }
 
 .joker-button
 {
-  float: right;
-  margin-top: 10%;
+    float: right;
+    margin-top: 10%;
 }
 
 
+/*Iphone 4*/
 
+@media only screen and (max-width: 320px)
+{
+    .startseiteInhalt
+
+    {
+        margin: auto;
+        text-align:center;
+        margin-top: 27%;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+    .anleitung
+
+    {
+        margin: auto;
+        text-align:center;
+        margin-top: 27%;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+    img.backgroundImage {
+        border-radius: 20px;
+        /* border: 3px; */
+        /* border-style: solid; */
+        box-shadow: 12px 15px 20px 0px #0000005c;
+        margin: 1px;
+
+    }
+}
+@media only screen and (max-width: 320px)
+{
+    .joker-button
+
+    {
+        margin-top: -506px;
+    }
+}
+
+/*Note 3*/
+
+@media only screen and (max-width: 360px)
+{
+    .startseiteInhalt
+
+    {
+        margin: auto;
+        text-align:center;
+        margin-top: 45%;
+    }
+}
+
+@media only screen and (max-width: 360px)
+{
+    .joker-button
+
+    {
+        margin-top: -59px;
+        margin-right: 19px;
+    }
+}
+
+/*Iphone 6/7/8*/
+
+@media only screen and (max-width: 375px)
+{
+    .joker-button
+
+    {
+        margin-top: -61px;
+        margin-right: 24px;
+    }
+}
+
+@media only screen and (max-width: 375px)
+{
+    .button
+
+    {
+        margin-top: 21px;
+    }
+}
