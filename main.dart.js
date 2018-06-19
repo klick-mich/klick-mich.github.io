@@ -3877,10 +3877,10 @@ if(y>=v.length)return H.a(v,y)
 v[y]=u
 this.c.push(y)}},
 cP:function(){var z,y,x,w,v
-z=W.aZ(80,"img/cover.png",80)
+z=W.aZ(75,"img/cover.png",75)
 this.ch=z
 z.classList.add("backgroundImage")
-for(z=this.fx,y="img/icon1.png",x=0;x<z;++x){w=W.aZ(80,y,80)
+for(z=this.fx,y="img/icon1.png",x=0;x<z;++x){w=W.aZ(75,y,75)
 w.classList.add("backgroundImage")
 v=this.f
 if(x>=v.length)return H.a(v,x)
@@ -4344,10 +4344,10 @@ cc:function(){var z,y
 z=document
 y=z.createElement("p")
 this.c=y
-y.textContent="Das Spiel hat 3 verschiedene Schwierigkeitsgrade. [Einfach: 3 Level - 9 Felder, Mittel: 3 Level - 9 Felder, Schwer: 3 Level - 12 Felder] Das gesuchte Symbol \xfcber dem Spielfeld muss so schnell wie m\xf6glich im Spielfeld angeklickt werden. Man gewinnt, indem alle gesuchten Symbole im Spielfeld innerhalb der vorgegebenen Zeit anklickt. Man verliert, wenn die vorgegebene Zeit abgelaufen ist oder alle Klickversuche verbraucht sind. Klickversuche werden verbraucht, in dem man auf ein falsches Symbol klickt. Pro Spielsitzung kann man den Joker unten rechts am Spielfeld 3 mal benutzen. Dieser bewirkt, dass sich die Symbole im Spielfeld nochmals kurz umdrehen. "
+y.textContent="Das Spiel hat 3 verschiedene Schwierigkeitsgrade. [Einfach: 3 Level - 9 Felder, Mittel: 3 Level - 9 Felder, Schwer: 3 Level - 12 Felder]. Das gesuchte Symbol \xfcber dem Spielfeld muss so schnell wie m\xf6glich im Spielfeld angeklickt werden. Man gewinnt, indem alle gesuchten Symbole im Spielfeld innerhalb der vorgegebenen Zeit anklickt. Man verliert, wenn die vorgegebene Zeit abgelaufen ist oder alle Klickversuche verbraucht sind. Klickversuche werden verbraucht, in dem man auf ein falsches Symbol klickt. Pro Spielsitzung kann man den Joker unten rechts am Spielfeld 3 mal benutzen. Dieser bewirkt, dass sich die Symbole im Spielfeld nochmals kurz umdrehen. "
 z=z.createElement("button")
 this.d=z
-z.classList.add("button")
+z.classList.add("buttonAnleitung")
 this.d.textContent="Zur\xfcck"},
 k:{
 dL:function(){var z=new A.dK(null,null,null,null)

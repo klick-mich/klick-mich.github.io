@@ -23,7 +23,7 @@ h1 {
 
 }
 
-button {
+.buttonContainer button {
     color: #eeeeee;
     background: mediumslateblue;
     font-size: 1.5em;
@@ -33,6 +33,33 @@ button {
 
 .buttonContainer {
     margin-bottom: 2em;
+}
+
+
+#returnButton {
+     color: #eeeeee;
+     background: mediumslateblue;
+     font-size: 1.5em;
+     width: 7em;
+     height: 50px;
+     margin-top: 1vh;
+     margin-left: 3vh;
+ }
+
+#nextButton {
+    color: #eeeeee;
+    background: mediumslateblue;
+    font-size: 1.5em;
+    width: 7em;
+    height: 50px;
+}
+
+.buttonAnleitung{
+    color: #eeeeee;
+    background: mediumslateblue;
+    font-size: 1.5em;
+    width: 7em;
+    height: 50px;
 }
 
 .cursor{
@@ -76,95 +103,10 @@ img.backgroundImage {
 
 .joker-button
 {
-    float: right;
-    margin-top: 10%;
+    position: relative;
+    margin-top: 1vh;
+    margin-left: 23vh;
+
 }
 
 
-/*Iphone 4*/
-
-@media only screen and (max-width: 320px)
-{
-    .startseiteInhalt
-
-    {
-        margin: auto;
-        text-align:center;
-        margin-top: 27%;
-    }
-}
-
-@media only screen and (max-width: 320px)
-{
-    .anleitung
-
-    {
-        margin: auto;
-        text-align:center;
-        margin-top: 27%;
-    }
-}
-
-@media only screen and (max-width: 320px)
-{
-    img.backgroundImage {
-        border-radius: 20px;
-        /* border: 3px; */
-        /* border-style: solid; */
-        box-shadow: 12px 15px 20px 0px #0000005c;
-        margin: 1px;
-
-    }
-}
-@media only screen and (max-width: 320px)
-{
-    .joker-button
-
-    {
-        margin-top: -506px;
-    }
-}
-
-/*Note 3*/
-
-@media only screen and (max-width: 360px)
-{
-    .startseiteInhalt
-
-    {
-        margin: auto;
-        text-align:center;
-        margin-top: 45%;
-    }
-}
-
-@media only screen and (max-width: 360px)
-{
-    .joker-button
-
-    {
-        margin-top: -59px;
-        margin-right: 19px;
-    }
-}
-
-/*Iphone 6/7/8*/
-
-@media only screen and (max-width: 375px)
-{
-    .joker-button
-
-    {
-        margin-top: -61px;
-        margin-right: 24px;
-    }
-}
-
-@media only screen and (max-width: 375px)
-{
-    .button
-
-    {
-        margin-top: 21px;
-    }
-}
