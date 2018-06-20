@@ -6,7 +6,7 @@ body {
     max-width:80%;
     margin:auto;
     text-align: center;
-    background: #eeeeee;
+    background-image: url("/img/hintergrund.png")
 }
 h1 {
     font-size: 3.0em;
@@ -20,7 +20,8 @@ h1 {
 }
 
 .anleitung{
-
+    color: #eeeeee;
+    margin-top: 20vh;
 }
 
 .buttonContainer button {
@@ -91,6 +92,7 @@ img.backgroundImage {
     display: inline-block;
     font-size: 1em;
     margin: 13px;
+    color: #eeeeee;
 }
 
 .row {
@@ -101,7 +103,7 @@ img.backgroundImage {
     vertical-align: middle;
 }
 
-.joker-button
+#joker-button
 {
     position: relative;
     margin-top: 1vh;

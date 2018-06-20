@@ -3725,8 +3725,9 @@ w=x.y.style
 w.visibility="hidden"
 w=x.z.style
 w.visibility="hidden"
-x.Q.classList.add("joker-button")
-x=this.a.c.Q.style
+x=x.Q
+x.id="joker-button"
+x=x.style
 x.visibility="hidden"
 this.b.toString
 x=y.b
