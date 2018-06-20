@@ -4345,7 +4345,7 @@ cc:function(){var z,y
 z=document
 y=z.createElement("p")
 this.c=y
-y.textContent="Das Spiel hat 3 verschiedene Schwierigkeitsgrade. [Einfach: 3 Level - 9 Felder, Mittel: 3 Level - 9 Felder, Schwer: 3 Level - 12 Felder]. Das gesuchte Symbol \xfcber dem Spielfeld muss so schnell wie m\xf6glich im Spielfeld angeklickt werden. Man gewinnt, indem alle gesuchten Symbole im Spielfeld innerhalb der vorgegebenen Zeit anklickt. Man verliert, wenn die vorgegebene Zeit abgelaufen ist oder alle Klickversuche verbraucht sind. Klickversuche werden verbraucht, in dem man auf ein falsches Symbol klickt. Pro Spielsitzung kann man den Joker unten rechts am Spielfeld 3 mal benutzen. Dieser bewirkt, dass sich die Symbole im Spielfeld nochmals kurz umdrehen. "
+y.textContent="Das Spiel hat 3 verschiedene Schwierigkeitsgrade. [Einfach und Mittel: 3 Level - 9 Felder, Schwer: 3 Level - 12 Felder]. Das gesuchte Symbol \xfcber dem Spielfeld muss so schnell wie m\xf6glich im Spielfeld angeklickt werden. Man gewinnt, indem alle gesuchten Symbole im Spielfeld innerhalb der vorgegebenen Zeit anklickt. Man verliert, wenn die vorgegebene Zeit abgelaufen ist oder alle Klickversuche verbraucht sind. Klickversuche werden verbraucht, in dem man auf ein falsches Symbol klickt. Pro Spielsitzung kann man den Joker unten rechts am Spielfeld 3 mal benutzen. Dieser bewirkt, dass sich die Symbole im Spielfeld nochmals kurz umdrehen. "
 z=z.createElement("button")
 this.d=z
 z.classList.add("buttonAnleitung")
