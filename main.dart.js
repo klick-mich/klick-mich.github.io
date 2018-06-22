@@ -3756,15 +3756,18 @@ return P.N(v.M(b,c),$async$aj)
 case 5:if(w.f!==!0)if(w.r!==!0){w.b.toString
 u=!v.dF(b,c)}else u=!1
 else u=!1
-if(u)if(J.O(w.e,1)){window.alert("Leider nicht geschafft")
+if(u){u=J.O(w.e,1)
+t=w.a.c
+if(u){t.r.textContent="Versuche: 0"
+window.alert("Leider nicht geschafft")
 u=w.a.c.y.style
 u.visibility="visible"
 w.b.toString
 v.F(!1)
-w.r=!0}else{u=w.a.c.r
+w.r=!0}else{u=t.r
 t=J.dz(w.e,1)
 w.e=t
-u.textContent="Versuche: "+J.Q(t)}if(w.f!==!0)if(w.r!==!0){w.b.toString
+u.textContent="Versuche: "+J.Q(t)}}if(w.f!==!0)if(w.r!==!0){w.b.toString
 u=v.d8()}else u=!1
 else u=!1
 if(u){u=window
