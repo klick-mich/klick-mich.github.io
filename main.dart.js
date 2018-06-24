@@ -3726,7 +3726,7 @@ w.visibility="hidden"
 w=x.z.style
 w.visibility="hidden"
 x=x.Q
-x.id="joker-button"
+x.id="jokerButton"
 x=x.style
 x.visibility="hidden"
 this.b.toString
@@ -3759,7 +3759,7 @@ else u=!1
 if(u){u=J.O(w.e,1)
 t=w.a.c
 if(u){t.r.textContent="Versuche: 0"
-window.alert("Leider nicht geschafft")
+window.alert("Leider nicht geschafft.")
 u=w.a.c.y.style
 u.visibility="visible"
 w.b.toString
@@ -3854,7 +3854,7 @@ z=this.a
 y=z.d.a-1e6
 z.d=new P.I(y)
 x=z.f!==!0
-if(x&&z.r!==!0&&y<0){window.alert("Deine Zeit ist abgelaufen >:[")
+if(x&&z.r!==!0&&y<0){window.alert("Deine Zeit ist abgelaufen.")
 y=z.a.c.y.style
 y.visibility="visible"
 z.b.toString
@@ -4350,10 +4350,10 @@ cc:function(){var z,y
 z=document
 y=z.createElement("p")
 this.c=y
-y.textContent="Das Spiel hat 3 verschiedene Schwierigkeitsgrade. [Einfach und Mittel: 3 Level - 9 Felder, Schwer: 3 Level - 12 Felder]. Das gesuchte Symbol \xfcber dem Spielfeld muss so schnell wie m\xf6glich im Spielfeld angeklickt werden. Man gewinnt, indem alle gesuchten Symbole im Spielfeld innerhalb der vorgegebenen Zeit anklickt wurden. "
+y.textContent="Das Spiel hat 3 verschiedene Schwierigkeitsgrade. [Einfach und Mittel: 3 Level - 9 Felder, Schwer: 3 Level - 12 Felder]. Das Spiel beginnt mit einem verdeckten '?'-Spielfeld. Es wird nach ein paar Sekunden umgedreht und man sieht Symbole. Die soll man sich merken. Dann verdeckt sich das Spielfeld wieder und das gesuchte Symbol wird gezeigt. Das gesuchte Symbol \xfcber dem Spielfeld muss so schnell wie m\xf6glich im Spielfeld angeklickt werden. Man gewinnt, indem alle gesuchten Symbole im Spielfeld innerhalb der vorgegebenen Zeit anklickt wurden. "
 y=z.createElement("p")
 this.d=y
-y.textContent="Man verliert, wenn die vorgegebene Zeit abgelaufen ist oder alle Klickversuche verbraucht sind. Klickversuche werden verbraucht, in dem man auf ein falsches Symbol klickt. Pro Spielsitzung kann man den Joker unten rechts am Spielfeld 3 mal benutzen. Dieser bewirkt, dass sich die Symbole im Spielfeld nochmals kurz umdrehen. Wenn alle Level erfolgreich durchgespielt wurden, f\xe4ngt automatisch das erste Level wieder an. "
+y.textContent="Man verliert, wenn die vorgegebene Zeit abgelaufen ist oder alle Klickversuche verbraucht sind. Klickversuche werden verbraucht, in dem man auf ein falsches Symbol klickt. Pro Spielsitzung kann man den Joker unten rechts am Spielfeld 3 Mal benutzen. Dieser bewirkt, dass sich die Symbole im Spielfeld nochmals kurz umdrehen. Man beachte, dass sich auch schon gefundene Symbole nach der Verwendung des Jokers wieder umdrehen! Wenn alle Level erfolgreich durchgespielt wurden, f\xe4ngt automatisch das erste Level wieder an. "
 y=z.createElement("p")
 this.e=y
 y.textContent="Viel Spa\xdf beim Spielen."
